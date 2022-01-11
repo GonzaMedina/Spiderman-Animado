@@ -1,0 +1,34 @@
+
+.container{
+    width: 400px;
+    height: 400px;
+    background-color: steelblue;
+    margin: 40px auto;
+    overflow: hidden;
+}
+
+.spiderman{
+    width: 200px;
+    margin: 0 auto;
+    display: block;
+    animation: spiderman 5s infinite;
+}
+
+@keyframes spiderman{
+    0%{
+        transform: translateY(-50px);
+    }
+    30%{
+        transform: translateY(0) rotate
+        (5deg);
+    }
+    50%{
+        transform:  rotate(-5deg);
+    }
+    75%{
+        transform:  rotate(5deg);
+    }
+    100%{
+        transform:  translateY(-50px);
+    }
+}
